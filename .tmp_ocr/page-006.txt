@@ -1,0 +1,22 @@
+UAT-03 Missing details guard
+UAT-04 30-day flexible date picker
+UAT-05 ~— Upload payment proof
+UAT-06 Wrong phone rejected
+UAT-07 Invalid phone format caught
+UAT-08 — Switch to Bahasa Indonesia
+UAT-09 Language persists after reload
+UAT-10 — Court image carousel
+UAT-11 Admin view all bookings
+UAT-12 Admin update booking status
+6. Issues Found
+# UATCase_ Description Severity Status
+1
+2
+3
+7. Acceptance Decision
+Total Test Cases 12
+Passed __
+Failed __
+Overall Result O ACCEPTED oO REJECTED oO ACCEPTED WITH CONDITIONS
+Conditions (if any)
+8. Sign-Off

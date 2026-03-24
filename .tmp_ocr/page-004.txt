@@ -1,0 +1,29 @@
+4.3 Language Switching (Regular User)
+UAT-08 — Switch to Bahasa Indonesia
+Field Detail
+Scenario As an Indonesian user, | can use the app in Bahasa Indonesia
+1. Find the #8 EN | ID toggle button in the top-right of the page
+Steps ne
+2. Click it
+Expected All text on the page changes to Bahasa Indonesia (e.g. "Select a Session" >
+. "Pilih Sesi", "Who is playing?" > "Siapa yang bermain?").
+Result oPass@ oc Fail X
+Comments
+UAT-09 — Language is Remembered After Reload
+Field Detail
+Scenario As a user, my language preference should be saved
+Steps 1. Switch to Bahasa Indonesia
+2. Refresh the browser page
+Expected The page still shows in Bahasa Indonesia after reloading.
+Result oPass@ oc Fail X
+Comments
+4.4 Court Gallery Carousel (Regular User)
+UAT-10 — Court Image Carousel
+Field Detail
+Scenario As a user, | can see photos of the court to help me decide
+1. Open the booking page
+Steps p g pag
+2. Observe the left panel
+A slideshow of court images plays automatically every ~4 seconds. Arrow
+Expected buttons (< ») and dot indicators at the bottom allow manual navigation.
+Hovering over the image pauses the slideshow.

@@ -1,0 +1,21 @@
+User Acceptance Testing (UAT) Document
+BTPB Court Booking System
+Project BTPB Court Booking System
+Version 1.0
+UAT Date —
+Prepared by
+Approved by
+1. Purpose
+This UAT document verifies that the BTPB Court Booking System meets the needs of its
+end users before going live. Tests are performed by actual users (not developers) from the
+perspective of everyday usage.
+2. User Roles
+Role Description
+Regular User A member of the public who wants to book a badminton court
+Admin A staff member who manages and confirms bookings
+3. Test Environment
+Item Value
+Application URL http://localhost:5173
+Browser Chrome / Safari (latest)
+Test Date
+Tester Name

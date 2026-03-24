@@ -1,0 +1,26 @@
+Result oPass@ oc Fail X
+Comments
+4.5 Admin — Booking Management
+UAT-11 — View All Bookings
+Field Detail
+Scenario As an admin, | can see all bookings
+Steps Call GET /api/bookings/admin (via browser or tool)
+Returns a list of all bookings with their status, date, time, name, and
+Expected
+WhatsApp number.
+Result oPass@ oc Fail X
+Comments
+UAT-12 — Approve or Reject a Booking
+Field Detail
+Scenario As an admin, | can update a booking's status
+Steps Call PATCH /api/bookings/:id/status with { "status":
+i "WAITING_PAYMENT" } (or CONFIRMED , REJECTED , etc.)
+The booking status updates immediately. The user sees the new status on
+Expected .
+their next page load.
+Result oPass@ oc FailX
+Comments
+5. Overall UAT Sign-Off
+# UAT Case Pass/Fail
+UAT-01 View available slots
+UAT-02 Book aslot

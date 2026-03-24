@@ -1,0 +1,27 @@
+4. UAT Test Cases
+How to fill in results:
+- Pass &% — the feature works as described
++ Fail & — something didn't work; describe in Comments
++ N/A — not applicable in this test session
+4.1 Booking a Court (Regular User)
+UAT-01 — View Available Time Slots
+Field Detail
+Scenario As a user, | want to see which time slots are available for a given day
+Steps 1. Open the booking page
+[ 2. Pick any date from the date strip or the calendar input
+Expected Available slots show in white/green. Prayer times are greyed out and
+. unclickable. Booked slots show their status (yellow, blue, or green).
+Result oPass@ oc Fail X
+Comments
+UAT-02 — Book an Available Slot
+Field Detail
+. As a user, | can book an available time slot by entering my name and
+Scenario
+WhatsApp number
+1. Enter your full name
+Steps 2. Enter your WhatsApp number (e.g. 081234567890 )
+a 3. Pick a date
+4. Click an available (white) slot
+Expected A success message appears: "Successfully requested [time] for [name]!
+: Waiting for Admin Approval." The slot changes to a booked state.
+Result oPass@ oc Fail X

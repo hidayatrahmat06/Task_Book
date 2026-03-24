@@ -1,0 +1,27 @@
+Comments
+UAT-03 — Cannot Book Without Filling In Details
+Field Detail
+Scenario As a user, | should be reminded if | forget to fill in my name or WhatsApp
+Sree 1. Leave the Name or WhatsApp field empty
+i 2. Try to click an available slot
+Expected An error message tells the user to fill in both fields. No booking is made.
+Result oPass@ oc FailX
+Comments
+UAT-04 — Pick Any Date Within 30 Days
+Field Detail
+Scenario As a user, | can book a court up to 30 days from today
+1. Use the calendar input (top-right of the date section) to pick a date 3
+Steps weeks ahead
+2. Observe the available slots update
+Expected The slot grid updates to show availability for the selected date. Dates
+P beyond 30 days from today cannot be selected.
+Result oPass@ co FailX
+Comments
+4.2 Payment Upload (Regular User)
+UAT-05 — Upload Payment Proof
+Field Detail
+A h booking has b d, | load t
+Scenario S auses whose booking has been approved, | can upload my paymen
+receipt
+Precondition A slot must show as PAYMENT REQUIRED (yellow)
+1. Click the yellow PAYMENT REQUIRED slot

@@ -1,0 +1,29 @@
+Steps 2. A modal appears — select your payment receipt image
+P 3. Enter the WhatsApp number you used when booking
+4. Click Submit Payment
+Expected Success message: "Payment uploaded successfully! Waiting for Admin
+f Confirmation.” The slot turns blue.
+Result oPass®@ oFailX
+Comments
+UAT-06 — Wrong Phone Number is Rejected
+Field Detail
+As a system, | should reject trying to upload t with
+Scenario ystem, | should reject anyone trying to upload payment with a wrong
+phone number
+1. Click a yellow PAYMENT REQUIRED slot
+Stans 2. Select an image
+Y 3. Enter a phone number that is different from the one used when booking
+4. Click Submit Payment
+Expected An error message appears: "/nvalid phone number. You are not authorized
+P to upload payment for this booking." No upload happens.
+Result oPass@ oc Fail X
+Comments
+UAT-07 — Invalid Phone Number Format is Caught
+Field Detail
+Scenario As a user, | should be told immediately if my phone number format is wrong
+ae 1. Open the payment modal
+a 2. Type something invalid in the phone field (e.g. abc , or 12345 )
+Expected The input border turns red and a hint appears: "Invalid format. Use
+: O8XXXXXXXXX OF +628XXXXXXXXxX." The Submit button stays greyed out.
+Result oPass@ oc Fail X
+Comments
